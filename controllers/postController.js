@@ -28,6 +28,9 @@ const show = (req, res) => {
     if (err)
       return res.status(500).json({ error: "Database query failed" + err });
 
+    if (postResult.length === 0)
+      return res.status(404).json({ error: "Post Not Found" });
+
     const post = postResult[0];
 
     connection.query(tagSql, [id], (err, tagResult) => {
