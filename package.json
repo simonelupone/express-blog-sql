@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/simonelupone/express-blog-sql/issues"
   },
-  "homepage": "https://github.com/simonelupone/express-blog-sql#readme"
+  "homepage": "https://github.com/simonelupone/express-blog-sql#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
