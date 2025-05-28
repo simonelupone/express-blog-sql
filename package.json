@@ -1,0 +1,21 @@
+{
+  "name": "express-blog-sql",
+  "version": "1.0.0",
+  "description": "- Prendiamo le API precedentemente create per il vostro blog ed aggiungiamo la persistenza tramite la connessione a un DB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonelupone/express-blog-sql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonelupone/express-blog-sql/issues"
+  },
+  "homepage": "https://github.com/simonelupone/express-blog-sql#readme"
+}
